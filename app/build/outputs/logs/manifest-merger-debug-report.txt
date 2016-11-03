@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\Android
 		INJECTED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml:5:5-49:19
+ADDED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml:5:5-58:19
 MERGED from [com.android.support:design:24.2.1] D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:24.2.1] D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
@@ -79,6 +79,14 @@ ADDED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\Android
 		ADDED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml:42:17-62
 	android:name
 		ADDED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml:40:17-47
+activity#com.example.tassa.practiceadaptor.EditStudent
+ADDED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml:48:9-56:20
+	android:label
+		ADDED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml:50:13-53
+	android:parentActivityName
+		ADDED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml:51:13-58
+	android:name
+		ADDED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml:49:13-40
 uses-sdk
 INJECTED from D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:24.2.1] D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\AndroidManifest.xml:20:5-43

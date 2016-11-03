@@ -6,34 +6,36 @@ import java.io.Serializable;
  * Created by Lenovo on 23/10/2016.
  */
 
-public class Student implements Serializable {
-    private int id;
+public class Student {
+    private int id; //private
     private String noreg;
     private String name;
+    private String email;
     private String phone;
-    private String mail;
 
-    public Student(String noreg, String name, String phone, String mail){
-        this.id = 0;
-        this.noreg = noreg;
-        this.name = name;
-        this.phone = phone;
-        this.mail = mail;
+
+    public Student(int id, String noreg, String name , String email, String phone) {
+        this.id= id;
+        this.noreg= noreg;
+        this.name= name;
+        this.email = email;
+        this.phone =phone;
     }
 
-    public Student(int id, String noreg, String name, String phone, String mail){
-        this.id=id;
-        this.noreg=noreg;
-        this.name=name;
-        this.phone=phone;
-        this.mail=mail;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNoreg() {
         return noreg;
     }
 
-    public void setNoreg(String noreg) {
+    public void setNoreg(String norreg) {
         this.noreg = noreg;
     }
 
@@ -45,6 +47,14 @@ public class Student implements Serializable {
         this.name = name;
     }
 
+    public String getMail() {
+        return email;
+    }
+
+    public void setMail(String email) {
+        this.email = email;
+    }
+
     public String getPhone() {
         return phone;
     }
@@ -52,22 +62,5 @@ public class Student implements Serializable {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
-    public String getMail() {
-        return mail;
-    }
-
-    public void setMail(String mail) {
-        this.mail = mail;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-
-
-    }
 }
+

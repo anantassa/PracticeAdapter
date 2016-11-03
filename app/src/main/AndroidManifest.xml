@@ -45,6 +45,15 @@
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".StudentActivity"/>
             </activity>
+        <activity
+            android:name=".EditStudent"
+            android:label="@string/add_student_form"
+            android:parentActivityName=".StudentActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".StudentActivity"/>
+        </activity>
 
     </application>
 

@@ -52,6 +52,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".StudentActivity" />
         </activity>
+        <activity
+            android:name="com.example.tassa.practiceadaptor.EditStudent"
+            android:label="@string/add_student_form"
+            android:parentActivityName="com.example.tassa.practiceadaptor.StudentActivity" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".StudentActivity" />
+        </activity>
     </application>
 
 </manifest>
