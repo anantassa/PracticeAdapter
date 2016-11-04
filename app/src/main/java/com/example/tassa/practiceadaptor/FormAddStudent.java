@@ -4,29 +4,16 @@ package com.example.tassa.practiceadaptor;
  * Created by Lenovo on 23/10/2016.
  */
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
 
-
-import android.content.Intent;
-import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.Toast;
 
 
-import java.io.Serializable;
 import java.util.ArrayList;
 
 
@@ -39,11 +26,19 @@ public class FormAddStudent extends AppCompatActivity {
         private EditText mailText;
         private Student student;
 
-        static ArrayList<Student> studentArrayList;
+      public static ArrayList<Student> studentArrayList = new ArrayList<>();
         static StudentList studentList;
 
+    public static ArrayList<Student> getStudentArrayList() {
+        return studentArrayList;
+    }
 
-        @Override
+    public static void setStudentArrayList(ArrayList<Student> studentArrayList) {
+        FormAddStudent.studentArrayList = studentArrayList;
+    }
+
+
+    @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.add_student);
@@ -83,14 +78,14 @@ public class FormAddStudent extends AppCompatActivity {
             String phone = phoneText.getText().toString();
             String mail = mailText.getText().toString();
             student = new Student(id, noreg, name, mail, phone);
-            studentArrayList.add(student);
+            getStudentArrayList().add(student);
             Toast.makeText(getApplicationContext(), "Added Successfull", Toast.LENGTH_SHORT).show();
             finish();
 
         }
 
         public int getNextId(){
-            return studentArrayList.size();
+            return getStudentArrayList().size();
         };
     }
 

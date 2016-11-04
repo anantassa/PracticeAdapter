@@ -5,22 +5,22 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="12766595305951"
+    timestamp="8224046924513"
     token="7074060515472690273"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="FIELD_ADDED" >
 
     <task
         name="javac"
-        duration="611" />
+        duration="3128" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="240" />
+        duration="152" />
     <task
         name="verifier"
-        duration="15" />
+        duration="91" />
 
     <artifact
         location="D:\Anantassa\Mobcomp\assignment2\PracticeAdaptor\app\build\outputs\apk\app-debug.apk"

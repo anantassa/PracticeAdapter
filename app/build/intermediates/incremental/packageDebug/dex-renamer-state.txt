@@ -1,4 +1,4 @@
-#Fri Nov 04 00:25:02 ICT 2016
+#Fri Nov 04 15:59:33 ICT 2016
 base.0=D\:\\Anantassa\\Mobcomp\\assignment2\\PracticeAdaptor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=D\:\\Anantassa\\Mobcomp\\assignment2\\PracticeAdaptor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

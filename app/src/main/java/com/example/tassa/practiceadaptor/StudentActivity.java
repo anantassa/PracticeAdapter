@@ -20,7 +20,6 @@ import android.widget.TextView;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.List;
 
 public class StudentActivity extends AppCompatActivity {
 
@@ -30,6 +29,7 @@ public class StudentActivity extends AppCompatActivity {
         private FloatingActionButton addButton;
         private ListView listView;
         static ArrayList<Student> students;
+        FormAddStudent formAddStudent = new FormAddStudent();
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -92,7 +92,8 @@ public class StudentActivity extends AppCompatActivity {
             int i = students.size();
             students.add(new Student(i, "3145136188", "Tri Febriana Siami", "tri_unj@gmail.com", "085781897068"));
             students.add(new Student(i + 1, "3145136192", "Ummu Kultsum", "ummu_unj@gmail.com", "0888888888"));
-            adapter = new Adapter(this, students);
+            formAddStudent.studentArrayList.addAll(students);
+            adapter = new Adapter(this, formAddStudent.getStudentArrayList());
             listView.setAdapter(adapter);
         }
 
